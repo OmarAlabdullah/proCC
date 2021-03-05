@@ -1,5 +1,4 @@
-package Practicum6A;
-
+package Practicum6B;
 
 import java.util.ArrayList;
 
@@ -57,4 +56,12 @@ public class Persoon {
         return s;
     }
 
+    public Game zoekGameOpNaam(String s) {
+
+        for (Game g : games )
+            if (g.getNaam().equals(s))
+                return g;
+
+            return null;
+    }
 }
