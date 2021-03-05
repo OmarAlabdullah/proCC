@@ -8,6 +8,7 @@ public class Game {
     private int releaseJaar;
     private double nieuwprijs;
 
+
     public Game(String nm, int rj, double nwpr){
         this.naam = nm;
         this.releaseJaar = rj ;
